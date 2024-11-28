@@ -1,0 +1,48 @@
+name: the_gill
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_joystick: ^0.2.1
+  flutter_webrtc: ^0.11.6+hotfix.1
+  web_socket_channel: ^3.0.1
+  joystick: ^1.1.0
+  udp: ^5.0.3
+  flutter_mjpeg: ^2.0.4
+  shared_preferences: ^2.3.2
+  flutter_form_builder: ^9.3.0
+  provider: ^6.1.2
+  flutter_cube: ^0.1.1
+  network_info_plus: ^6.0.1
+  fl_chart: ^0.69.0
+  slidable_button: ^3.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.14.1
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/3d_model/cat/
+    - assets/3d_model/THEGILL DOCS/
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "AppIcon"
+  image_path: "assets/img/icon.png"
+  main_sdk_android: 21
+  remove_alpha_ios: true
+  adaptive_icon_background: "#ffffff"
+  adaptive_icon_foreground : "assets/img/icon.png"
